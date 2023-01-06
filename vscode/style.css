@@ -1,7 +1,24 @@
-.nav-link:hover {
-    color: red;
-}
+
 
 .main-img {
     max-width: 300px;
+}
+
+.navbar, .navbar-expand-lg, .bg-body-tertiary{
+    padding: 0;
+}
+.container-fluid {
+    min-height: 80px;
+    height: 10vh;
+    max-width: 80vw;
+    border-bottom: 1px solid #CCC;
+    padding: 0;
+}
+
+.navbar-nav ul, li{
+    padding: 0 20px 0 20px;
+}
+.cart-profile img{
+    margin-left: 30px;
+    max-width: 50px;
 }
