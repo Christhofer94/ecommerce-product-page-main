@@ -18,7 +18,24 @@
 .navbar-nav ul, li{
     padding: 0 20px 0 20px;
 }
-.cart-profile img{
+.cart-profile, .img-profile {
     margin-left: 30px;
     max-width: 50px;
+    cursor: pointer;
+}
+.img-profile:hover{
+    border: 2px solid #D2691E;
+    border-radius: 40px;
+}
+ .btn-primary{
+    background-color:  rgba(0, 0, 0, 0);
+    border: none;
+ }
+ .btn-primary:hover{
+    background-color: rgba(0, 0, 0, 0);
+ }
+
+.modal{
+    margin-left: -10%;
+    margin-top: 2%;
 }
