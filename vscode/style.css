@@ -1,27 +1,38 @@
 
 
-.main-img {
-    max-width: 300px;
-}
 
-.navbar, .navbar-expand-lg, .bg-body-tertiary{
-    padding: 0;
-}
-.container-fluid {
+
+.container-fluid.d-flex {
     min-height: 80px;
     height: 10vh;
     max-width: 80vw;
     border-bottom: 1px solid #CCC;
     padding: 0;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
 }
-
+.navbar, .navbar-expand-lg, .bg-body-tertiary{
+    padding: 0;
+    height: 100%;
+    background-color: aqua;
+}
 .navbar-nav ul, li{
     padding: 0 20px 0 20px;
 }
+.navbar-nav ul li a {
+    border-bottom: 2px solid #D2691E;
+}
 .cart-profile, .img-profile {
     margin-left: 30px;
-    max-width: 50px;
     cursor: pointer;
+    max-height: 80px;
+    align-items: center;
+    
+}
+.img-profile{
+    border: 2px solid rgba(0, 0, 0, 0);
 }
 .img-profile:hover{
     border: 2px solid #D2691E;
@@ -36,6 +47,16 @@
  }
 
 .modal{
-    margin-left: -10%;
-    margin-top: 2%;
+    margin-left: -10%; 
+    margin-top: 4rem;
+}
+.main-img {
+    max-width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid .navbar-toggler{
+        
+    }
+
 }
